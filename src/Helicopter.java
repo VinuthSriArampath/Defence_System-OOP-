@@ -272,6 +272,8 @@ public class Helicopter extends javax.swing.JFrame implements Vehicle{
             btnshoot.setEnabled(false);
             btnmissile.setEnabled(false);
             btnlaser.setEnabled(false);
+        }else{
+            activatebtn(MainController.getInstant().);
         }
     }//GEN-LAST:event_positioncheckActionPerformed
     

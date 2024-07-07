@@ -21,10 +21,10 @@ public class MainController extends javax.swing.JFrame {
 
     private final ArrayList<Vehicle> vehiclelist = new ArrayList<>();
     private static MainController main;
+    
     private MainController() {
         initComponents();
         setVisible(true);
-        
     }
     public static MainController getInstant(){
         if(main==null){
